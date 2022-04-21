@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+section#header{
+    padding: 1rem; 
+    border-bottom: 2px solid silver;
+}
+
+section#header div.wrapper{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section#header div.wrapper div.top{
+    display: flex; 
+    align-items: center;
+
+}
+section#header div.top figure img{
+    height: 100px;
+}  
+
+section#header div.wrapper div.top p{
+    font-size: 2.5rem;
+} 
+
+section#header div.wrapper div.login i{
+    font-size: 2rem; 
+    margin: 1rem;
+
+} 
+
+
+section#header div.nav ul li{
+    list-style: none; 
+    display: inline; 
+    margin-right: 1rem; 
+    line-height: 10px; 
+} 
+
+section#header div.nav ul li:hover{
+    border-bottom: 1px solid blue;
+} 
+
+section#faqs{
+    width: 50%;
+    margin: 0 auto; 
+    padding-top:2rem ;
+}
+
+section#faqs 
+h1, 
+h4{
+    padding: 2rem 0;
+}
