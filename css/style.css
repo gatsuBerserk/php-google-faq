@@ -58,4 +58,8 @@ section#faqs
 h1, 
 h4{
     padding: 2rem 0;
+} 
+
+section#faqs ol, ul li{
+    margin-left: 1rem;
 }
